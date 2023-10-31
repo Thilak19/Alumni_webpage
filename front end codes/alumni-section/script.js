@@ -5,9 +5,7 @@ menuBtn.addEventListener('click', function(){
   menuBtn.classList.toggle('active');
   navLinks.classList.toggle('active');
 });
-
-var brnach = document.getElementById('#branch');
-var branch =brnach.textContent;
-alert(branch);
-
-
+function search(){
+var x = document.getElementById("branch").value;
+alert(x);
+};
