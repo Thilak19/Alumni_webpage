@@ -6,6 +6,7 @@ menuBtn.addEventListener('click', function(){
   navLinks.classList.toggle('active');
 });
 function search(){
-var x = document.getElementById("branch").value;
-alert(x);
+var selected_branch = document.getElementById("branch").value;
+document.querySelectorAll(".student_branch").textContent = selected_branch;
+alert(student_branch);
 };
