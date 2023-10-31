@@ -6,9 +6,8 @@ menuBtn.addEventListener('click', function(){
   navLinks.classList.toggle('active');
 });
 
-
-const branch = document.querySelector('.branch').textContent;
-console.log(branch);
+var brnach = document.getElementById('#branch');
+var branch =brnach.textContent;
 alert(branch);
 
 
