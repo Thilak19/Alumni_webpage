@@ -12,42 +12,50 @@
     <body>
     
         <header>
-            <div class="container">
-                <img class="logo">
-                
-                    <nav class="navbar">
-                        
-                        <ul class="nav-links">
-                            <li><a href="/front end codes/Other-pages/landingPage.html">Home</a></li>
-                            <li><a href="/front end codes/Other-pages/welcome.html">Community</a></li>
-                            <li><a href="/front end codes/Other-pages/givingPage1.html">Giving</a></li>
-                            <li><a href="/front end codes/event-page/index.html">Program & Event</a></li>
-                            <li><a href="https://www.sitmng.ac.in/">College</a></li>
-                            <li><a href="/front end codes/Other-pages/jobPost1.html">Jobs</a></li>
-                            <li><a href="/front end codes/Other-pages/aboutUs.html">About us</a></li>
-                            <a href="/front end codes/login-form/login_index.html"><button>Sign In</button></a>
-                            <a href="/front end codes/role-page/role_index.html"><button>Sign Up</button></a>
-                        </ul>
+            <nav class="nav">
+              <input type="checkbox" id="nav-check">
+              <div class="nav-header">
+                <div class="nav-title">  </div>
+              </div>
+              <div class="nav-btn">
+                <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+              
+              <ul class="nav-list">
+                <li><a href="/front end codes/Other-pages/landingPage.html">Home</a></li>
+                <li><a href="/front end codes/Other-pages/welcome.html">Community</a></li>
+                <li><a href="/front end codes/Other-pages/givingPage1.html">Giving</a></li>
+                <li><a href="/front end codes/event-page/index.html">Program & Event</a></li>
+                <li><a href="https://www.sitmng.ac.in/">College</a></li>
+                <li><a href="/front end codes/Other-pages/coming_soon.html">Jobs</a></li>
+                <a href="/front end codes/login-form/login_index.html"><button class="sign-in">Sign In</button></a>
+                <a href="/front end codes/role-page/role_index.html"><button class="sign-up">Sign Up</button></a>
                             
-                    
-                        <div id='burger'>
-                        <div class="menu-btn">  
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </div>
-                    </nav>
-            </div>
+              </ul>
+            </nav>
+            
         </header>
 
 
     <section class="hero">
         <div class="row">
             <div class="row-1">
-                Welcome to Srinivas Institute of Technology Alumni 
+                Welcome to Srinivas Institute of 
+                Technology Alumni 
             </div>
             <div class="row-2">
-                At Srinivas Institute of Technology Alumni, we are driven by a passion for excellence and a commitment to providing you with top-notch [your products or services]. We take pride in being a customer-centric organization, dedicated to meeting your needs and exceeding your expectations.
+                At Srinivas Institute of Technology 
+                Alumni, we are driven by a passion for 
+                excellence and a commitment to providing 
+                you with top-notch [your products or 
+                services]. We take pride in being a 
+                customer-centric organization, dedicated to 
+                meeting your needs and exceeding your 
+                expectations.
             </div>
         </div>
     </section>
@@ -233,31 +241,10 @@
             <div class='icons align_center'><i class="fa-brands fa-instagram" style="color: #030303;"></i></div>
             <div class='icons align_center'><i class="fa-brands fa-figma" style="color: #000000;"></i></div>
         </div>
-        <div class ='naviagtions align_center'>
-            <ul class="footer-nav">
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/Other-pages/landingPage.html">Home</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/Other-pages/welcome.html">Community</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/Other-pages/givingPage1.html">Giving</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/event-page/index.html">Program & Event</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="https://www.sitmng.ac.in/">College</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/Other-pages/jobPost1.html">Jobs</a></li>
-                <li class="footer-nav-item"><a class="footer-nav-link" href="/front end codes/Other-pages/aboutUs.html">About us</a></li>
-            </ul>
-            
-        </div>
         <div class='btn_container align_center'><a class='btn_contactus'>Contact Us</a></div>
         <div class ='line'></div>
         <div class='tnc align_center'>© 2023 All Rights Reserved</div>
         </div>
     </footer>
-    <script >
-            const navLinks = document.querySelector('.nav-links');
-            let menuBtn = document.querySelector('.menu-btn');
-
-            menuBtn.addEventListener('click', function(){
-            menuBtn.classList.toggle('active');
-            navLinks.classList.toggle('active');
-            })
-    </script>
     </body>
 </html>
